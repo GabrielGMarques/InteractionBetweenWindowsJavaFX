@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+
+
+<BorderPane prefHeight="217.0" prefWidth="273.0"
+	xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="application.controllers.ControllerPag1">
+	<top>
+		<Button mnemonicParsing="false" text="Ir para 2ªPágina"
+			BorderPane.alignment="TOP_LEFT" onAction="#goPage2"/>
+	</top>
+	<center>
+		<Label text="1ª Página" BorderPane.alignment="CENTER"  />
+	</center>
+</BorderPane>
