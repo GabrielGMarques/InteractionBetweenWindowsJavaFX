@@ -15,7 +15,7 @@ public class ControllerPage2 {
 	@FXML
 	public void onBack() {
 		// Solicita a primeira página
-		Main.loadStage("/Page1.fxml", "1ªPágina");
+		Main.loadScene("/Page1.fxml", "1ªPágina");
 
 	}
 }
