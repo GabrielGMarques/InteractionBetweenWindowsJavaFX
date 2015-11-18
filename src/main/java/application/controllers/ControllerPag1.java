@@ -15,7 +15,7 @@ public class ControllerPag1 {
 	@FXML
 	public void goPage2() {
 		// Solicita a segunda página
-		Main.loadStage("/Page2.fxml", "2ª Página");
+		Main.loadScene("/Page2.fxml", "2ª Página");
 
 	}
 }
