@@ -49,7 +49,7 @@ public class Main extends Application {
 	 * @param nameFile
 	 * @param titlePage
 	 */
-	public static void loadStage(String nameFile, String titlePage) {
+	public static void loadScene(String nameFile, String titlePage) {
 
 		Parent root;
 		try {
